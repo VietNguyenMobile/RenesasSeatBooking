@@ -1,117 +1,92 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
-import React from 'react';
-import type {PropsWithChildren} from 'react';
+import React, {useState, useEffect} from 'react';
+import {Button, SafeAreaView, StyleSheet, Image as RNImage} from 'react-native';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+  Canvas,
+  Circle,
+  Group,
+  Rect,
+  SkImage,
+  Mask,
+  rrect,
+  rect,
+  Box,
+  Image,
+  Skia,
+  Fill,
+  ImageFormat,
+  useCanvasRef,
+} from '@shopify/react-native-skia';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+const urlImage =
+  'https://images.unsplash.com/photo-1670272501077-c72d2d42f362?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
-
-function Section({children, title}: SectionProps): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
+const generateSkiaImage = async (path: string) => {
+  return await Skia.Data.fromURI(path).then(data =>
+    Skia.Image.MakeImageFromEncoded(data),
   );
-}
+};
 
-function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+const App = () => {
+  const [image, setImage] = useState<SkImage>();
+  const [capturedImage, setCapturedImage] = useState('');
+  const canvasRef = useCanvasRef();
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+  useEffect(() => {
+    generateSkiaImage(urlImage).then(value => {
+      if (value) {
+        setImage(value);
+      }
+    });
+  }, []);
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
+    <SafeAreaView style={styles.container}>
+      {/* <Canvas style={{width: 200, height: 200}}>
+        <Rect width={200} height={200} color={'red'} />
+      </Canvas> */}
+
+      <Canvas ref={canvasRef} style={{width: 300, height: 300}}>
+        <Fill color="blue" />
+        <Mask mask={<Box box={rrect(rect(50, 50, 200, 200), 10, 10)} />}>
+          {image ? (
+            <Image
+              x={30}
+              y={20}
+              image={image}
+              width={300}
+              height={300}
+              fit="cover"
+            />
+          ) : null}
+        </Mask>
+      </Canvas>
+      <Button
+        title="Capture"
+        onPress={() => {
+          const skImg = canvasRef.current?.makeImageSnapshot();
+          console.log('skImg: ', skImg);
+          if (skImg) {
+            const base64 = skImg.encodeToBase64(ImageFormat.PNG, 100);
+            // console.log('base64: ', base64);
+            setCapturedImage('data:image/png;base64,' + base64);
+          }
+        }}
       />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
+      {capturedImage ? (
+        <RNImage
+          source={{uri: capturedImage}}
+          style={{width: 200, height: 200, backgroundColor: 'red'}}
+        />
+      ) : null}
     </SafeAreaView>
   );
-}
+};
 
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
 
