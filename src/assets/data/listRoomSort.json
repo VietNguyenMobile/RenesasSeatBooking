@@ -1,0 +1,3457 @@
+{
+  "data": [
+    {
+      "_id": "62a585100ada68b92de5ba8b",
+      "roomName": "4FE",
+      "roomDescription": "Renesas HCM 4th floor East",
+      "roomScale": 0.3,
+      "isOpen": true,
+      "created_at": 1655014671135,
+      "updated_at": 1708328478217,
+      "imageInfo": {
+        "width": 1436,
+        "height": 1436,
+        "path": "production/space-img/630f594b51b54cd18dc89682.jpg"
+      },
+      "slots": [
+        {
+          "_id": "62a585100ada68b92de5ba94",
+          "x": 642.5968552574631,
+          "y": 239.22054307119646,
+          "name": "057",
+          "state": "permanent",
+          "permanentReason": "SW/OS/phu.ho.te",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5baa1",
+          "x": 963.7915239492457,
+          "y": 299.0269388358746,
+          "name": "134",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dc1a53fafad08d710eca48",
+              "bookingType": "daily",
+              "seriesId": "65dc1a1228d05771db420e78",
+              "entryTime": 39600000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bcf7bafcc565a3be0ce8a8",
+              "user": {
+                "_id": "62bcf7bafcc565a3be0ce8a8",
+                "code": "2840",
+                "name": "Khoa Ta"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5baae",
+          "x": 735.5267692282379,
+          "y": 392.1415943618122,
+          "name": "067",
+          "state": "open",
+          "permanentReason": "RVASW-RVASW3/OS-ducht2@fsoft.com.vn",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65890833d3b75100a276f100",
+              "bookingType": "daily",
+              "seriesId": "6589080793b1fc3e68756268",
+              "entryTime": 32400000,
+              "exitTime": 64800000,
+              "date": 1710262800000,
+              "userId": "62bd02c6fcc565a3be0e3ea4",
+              "user": {
+                "_id": "62bd02c6fcc565a3be0e3ea4",
+                "code": "2907",
+                "name": "Thao Nguyen"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bac1",
+          "x": 1241.5091769390053,
+          "y": 453.5927294270281,
+          "name": "198",
+          "state": "permanent",
+          "permanentReason": "RHVPF/OS/chuong.le.ct",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5baca",
+          "x": 528.3294002856996,
+          "y": 590.3517532433034,
+          "name": "015",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65b08eaa968c99d68416f354",
+              "bookingType": "daily",
+              "seriesId": "65b08e83a207f93aeff46e67",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "633d4c7d7d63ed9ca7980011",
+              "user": {
+                "_id": "633d4c7d7d63ed9ca7980011",
+                "code": "3066",
+                "name": "Thuan Tran",
+                "photoPath": "production/avatar/64a248b053ca334cc074f578.jfif"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a4111248ce0dacf701b",
+          "name": "205",
+          "state": "permanent",
+          "x": 1194.873167247541,
+          "y": 590.3517532433034,
+          "permanentReason": "RVCSW/SWDD/SWDE3 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf7049",
+          "name": "219",
+          "state": "open",
+          "x": 1288.1451866304699,
+          "y": 805.87343563318,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65d6a214d9908b654cc138d0",
+              "bookingType": "daily",
+              "seriesId": "65d6a1ec4725d8af3a1a87eb",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62babdf9b0367d5b536d32d6",
+              "user": {
+                "_id": "62babdf9b0367d5b536d32d6",
+                "code": "3006",
+                "name": "Khoi Do",
+                "photoPath": "production/avatar/6373533762bd422dc77f260c.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf7058",
+          "name": "092",
+          "state": "open",
+          "x": 781.9917262136254,
+          "y": 805.87343563318,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65ea94983455e91bafc34b47",
+              "bookingType": "daily",
+              "seriesId": "65ea948809878fc9dfb9cf72",
+              "entryTime": 39600000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd0a52fcc565a3be0f271d",
+              "user": {
+                "_id": "62bd0a52fcc565a3be0f271d",
+                "code": "3094",
+                "name": "Tuan Tran",
+                "photoPath": "production/avatar/65191c3b961acc47fc2351d1.png"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf7059",
+          "name": "093",
+          "state": "permanent",
+          "x": 642.596855257463,
+          "y": 866.5927294270282,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7063",
+          "name": "170",
+          "state": "permanent",
+          "x": 1032.6012809356978,
+          "y": 943.726328805565,
+          "permanentReason": "CS1/RCM/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf706d",
+          "name": "231",
+          "state": "permanent",
+          "x": 1288.1451866304699,
+          "y": 1005.4719388358747,
+          "permanentReason": "RVCSW/SWDD/SWDE2 LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7076",
+          "name": "098",
+          "state": "permanent",
+          "x": 689.0618122428505,
+          "y": 943.726328805565,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7090",
+          "name": "108",
+          "state": "open",
+          "x": 781.9917262136254,
+          "y": 1080.5261353616038,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65960fa03174eda052408f65",
+              "bookingType": "daily",
+              "seriesId": "65960f78a79817b3a4848e11",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bcfea2fcc565a3be0dbeeb",
+              "user": {
+                "_id": "62bcfea2fcc565a3be0dbeeb",
+                "code": "2472",
+                "name": "Nghia Dinh",
+                "photoPath": "production/avatar/634fa1537a313c99a2d21bb1.png"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a8911248ce0dacf709f",
+          "name": "190",
+          "state": "permanent",
+          "x": 966.6851099218546,
+          "y": 1292.3581485550303,
+          "permanentReason": "OS/SW/vu.phan.uj",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70a4",
+          "name": "052",
+          "state": "permanent",
+          "x": 574.4522518589333,
+          "y": 1230.2066511673897,
+          "permanentReason": "RVSSW/FSP1/ OS - HV",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70a6",
+          "name": "114",
+          "state": "permanent",
+          "x": 689.0618122428505,
+          "y": 1230.2066511673897,
+          "permanentReason": "ANBCD/lapPC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba8f",
+          "x": 1055.6951216835594,
+          "y": 85.21397638192319,
+          "name": "124",
+          "state": "permanent",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba9c",
+          "x": 917.839725082089,
+          "y": 239.22054307119646,
+          "name": "129",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5baa2",
+          "x": 1009.7433228164026,
+          "y": 299.0269388358746,
+          "name": "135",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dfe0aa0dd33a563a9273aa",
+              "bookingType": "daily",
+              "seriesId": "65dfe07e0657dbb4b2e657aa",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "64a66158f89e77e80b5b4d1e",
+              "user": {
+                "_id": "64a66158f89e77e80b5b4d1e",
+                "code": "3383",
+                "name": "Bao Nguyen",
+                "photoPath": "production/avatar/64f5d60f4c62c8412775a3c3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5baa7",
+          "x": 574.4522518589333,
+          "y": 392.1415943618122,
+          "name": "004",
+          "state": "permanent",
+          "permanentReason": "RVSSW/SWPF1-OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5baaa",
+          "x": 528.1583475796227,
+          "y": 452.4611482447211,
+          "name": "007",
+          "state": "permanent",
+          "permanentReason": "RVSSW/SWPF1-OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bab9",
+          "x": 1032.6012809356978,
+          "y": 452.4611482447211,
+          "name": "142",
+          "state": "open",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "6572ddd9d5ce5c6badce9d6d",
+              "bookingType": "daily",
+              "seriesId": "6572dd9664fe62181f7cba5f",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bcf81cfcc565a3be0cf508",
+              "user": {
+                "_id": "62bcf81cfcc565a3be0cf508",
+                "code": "2556",
+                "name": "Bé La Bé Dứa",
+                "photoPath": "production/avatar/6361eac55bcf8aa12c95be8d.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bac2",
+          "x": 1288.1451866304699,
+          "y": 453.5927294270281,
+          "name": "199",
+          "state": "permanent",
+          "permanentReason": "RVCSW/CS1/RHM/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bac4",
+          "x": 436.08369713923224,
+          "y": 529.9072833346194,
+          "name": "009",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65d9921a70475f05801d8e6c",
+              "bookingType": "daily",
+              "seriesId": "65d991f450c08b66f6f3503f",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "637d9e5406c5eb76d3d178c2",
+              "user": {
+                "_id": "637d9e5406c5eb76d3d178c2",
+                "code": "3282",
+                "name": "Nhan Huynh",
+                "photoPath": "production/avatar/639af5971d08490afb17c508.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a3e11248ce0dacf7012",
+          "name": "148",
+          "state": "permanent",
+          "x": 1125.189089494319,
+          "y": 529.9072833346194,
+          "permanentReason": "'RVCSW/CS2/RST OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf7036",
+          "name": "157",
+          "state": "permanent",
+          "x": 986.3073766563873,
+          "y": 728.8951887638757,
+          "permanentReason": "RVCSW/CS2/RST OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf703e",
+          "name": "216",
+          "state": "open",
+          "x": 1334.7811963219342,
+          "y": 728.8951887638757,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf704f",
+          "name": "166",
+          "state": "open",
+          "x": 1032.6012809356978,
+          "y": 866.5927294270282,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf7053",
+          "name": "027",
+          "state": "open",
+          "x": 528.3294002856996,
+          "y": 805.87343563318,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "659367f95b703abc2fcd33e7",
+              "bookingType": "daily",
+              "seriesId": "659367c3f1864218fec7754d",
+              "entryTime": 25200000,
+              "exitTime": 64800000,
+              "date": 1710262800000,
+              "userId": "6347c7e96108cc9fd9ecff62",
+              "user": {
+                "_id": "6347c7e96108cc9fd9ecff62",
+                "code": "3258",
+                "name": "Khanh Bui",
+                "photoPath": "production/avatar/634f4ede96dd227a7fc2ab67.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf7054",
+          "name": "028",
+          "state": "open",
+          "x": 574.4522518589333,
+          "y": 805.87343563318,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65e5a409c49d20f782a6201d",
+              "bookingType": "daily",
+              "seriesId": "65e5a3c91d31030717b4f0d6",
+              "entryTime": 28800000,
+              "exitTime": 64800000,
+              "date": 1710262800000,
+              "userId": "62bd05dafcc565a3be0e9d56",
+              "user": {
+                "_id": "62bd05dafcc565a3be0e9d56",
+                "code": "2065",
+                "name": "Nghia Do",
+                "photoPath": "production/avatar/634ea05eb351d2cfaa1d056d.png"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7311248ce0dacf706f",
+          "name": "174",
+          "state": "permanent",
+          "x": 1032.6012809356978,
+          "y": 1005.4719388358747,
+          "permanentReason": "CS1/RCM/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7077",
+          "name": "099",
+          "state": "permanent",
+          "x": 735.5267692282379,
+          "y": 943.726328805565,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7092",
+          "name": "110",
+          "state": "open",
+          "x": 689.0618122428505,
+          "y": 1142.9978986528588,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba95",
+          "x": 688.5486541246198,
+          "y": 239.22054307119646,
+          "name": "058",
+          "state": "fixed",
+          "permanentReason": null,
+          "fixedUserId": "62babb00b0367d5b536d328d",
+          "fixedUser": {
+            "_id": "62babb00b0367d5b536d328d",
+            "code": "0049",
+            "name": "RIAKI ISHIZUKA"
+          },
+          "fixedUserCode": "0049",
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bab1",
+          "x": 689.4039176550042,
+          "y": 452.4611482447211,
+          "name": "070",
+          "state": "open",
+          "permanentReason": "RVASW-ASW4/OS/namtt12@fsoft.com.vn",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65e5357395f4c5f0dee2cb13",
+              "bookingType": "daily",
+              "seriesId": "65e534c7c133f27bf953b339",
+              "entryTime": 28800000,
+              "exitTime": 57600000,
+              "date": 1710262800000,
+              "userId": "633d4c757d63ed9ca797e263",
+              "user": {
+                "_id": "633d4c757d63ed9ca797e263",
+                "code": "2731",
+                "name": "Khanh Phan"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bacf",
+          "x": 574.4522518589333,
+          "y": 667.8126498988115,
+          "name": "020",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf7033",
+          "name": "154",
+          "state": "open",
+          "x": 1032.6012809356978,
+          "y": 667.8126498988115,
+          "permanentReason": "RVCSW/CS2/RST LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf704e",
+          "name": "224",
+          "state": "open",
+          "x": 1334.7811963219342,
+          "y": 866.5927294270282,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65de93214c28646cad48ea29",
+              "bookingType": "daily",
+              "seriesId": "65de92f16b98f045aa0f76de",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "634e977a6108cc9fd9138ce1",
+              "user": {
+                "_id": "634e977a6108cc9fd9138ce1",
+                "code": "3263",
+                "name": "Nhuan Nguyen",
+                "photoPath": "production/avatar/63509eb87e267f623647fdb9.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a6311248ce0dacf7050",
+          "name": "167",
+          "state": "open",
+          "x": 1078.8951852150085,
+          "y": 866.5927294270282,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7070",
+          "name": "175",
+          "state": "permanent",
+          "x": 1078.8951852150085,
+          "y": 1005.4719388358747,
+          "permanentReason": "CS1/RCM/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf708e",
+          "name": "106",
+          "state": "permanent",
+          "x": 689.0618122428505,
+          "y": 1080.5261353616038,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5babb",
+          "x": 1125.189089494319,
+          "y": 452.4611482447211,
+          "name": "144",
+          "state": "open",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65d45865edc1c4900f6bc418",
+              "bookingType": "daily",
+              "seriesId": "65d4583aefb64bfcf204bb12",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bcf879fcc565a3be0d004a",
+              "user": {
+                "_id": "62bcf879fcc565a3be0d004a",
+                "code": "2395",
+                "name": "Duc Le",
+                "photoPath": "production/avatar/634e93ff724380b2552c4276.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5babf",
+          "x": 1334.7811963219342,
+          "y": 392.1415943618122,
+          "name": "196",
+          "state": "permanent",
+          "permanentReason": "RVCSW/CS1/RHM/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bac0",
+          "x": 1194.873167247541,
+          "y": 453.5927294270281,
+          "name": "197",
+          "state": "permanent",
+          "permanentReason": "RHVPF/OS/chuong.le.ct",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4111248ce0dacf7018",
+          "name": "202",
+          "state": "permanent",
+          "x": 1241.5091769390053,
+          "y": 529.9072833346194,
+          "permanentReason": "RVCSW/SWDD/SWDE3 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4111248ce0dacf701c",
+          "name": "206",
+          "state": "permanent",
+          "x": 1241.5091769390053,
+          "y": 590.3517532433034,
+          "permanentReason": "RVCSW/SWDD/SWDE3 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4411248ce0dacf7021",
+          "name": "083",
+          "state": "permanent",
+          "x": 735.5267692282379,
+          "y": 667.8126498988115,
+          "permanentReason": "SW/tuong.thach.wh",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf703b",
+          "name": "213",
+          "state": "open",
+          "x": 1194.873167247541,
+          "y": 728.8951887638757,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf7043",
+          "name": "162",
+          "state": "permanent",
+          "x": 1032.6012809356978,
+          "y": 805.87343563318,
+          "permanentReason": "RVCSW/CS2/FIT OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf7047",
+          "name": "217",
+          "state": "permanent",
+          "x": 1194.873167247541,
+          "y": 805.87343563318,
+          "permanentReason": "RVCSW/SWDD/SWDE1 LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf704a",
+          "name": "220",
+          "state": "open",
+          "x": 1334.7811963219342,
+          "y": 805.87343563318,
+          "permanentReason": "RVCSW/CS3 LAB PC",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "6580fb1387869ccaf7a268a5",
+              "bookingType": "daily",
+              "seriesId": "6580fa9eeb021969ee260fde",
+              "entryTime": 32400000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "633d4c7f7d63ed9ca7980977",
+              "user": {
+                "_id": "633d4c7f7d63ed9ca7980977",
+                "code": "3212",
+                "name": "Khai Ngo"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7094",
+          "name": "112",
+          "state": "open",
+          "x": 781.9917262136254,
+          "y": 1142.9978986528588,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70a7",
+          "name": "115",
+          "state": "permanent",
+          "x": 735.5267692282379,
+          "y": 1230.2066511673897,
+          "permanentReason": "ANBCD/lapPC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70ac",
+          "name": "120",
+          "state": "permanent",
+          "x": 781.9917262136254,
+          "y": 1292.3581485550303,
+          "permanentReason": "GSSM/thang.tran.xh",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a3911248ce0dacf700b",
+          "name": "077",
+          "state": "open",
+          "x": 642.596855257463,
+          "y": 590.3517532433034,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65b86a6f765494ba14862306",
+              "bookingType": "daily",
+              "seriesId": "65b86a464caa426da12e761a",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd086cfcc565a3be0eecbc",
+              "user": {
+                "_id": "62bd086cfcc565a3be0eecbc",
+                "code": "2436",
+                "name": "Da Tran"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a4411248ce0dacf7024",
+          "name": "086",
+          "state": "open",
+          "x": 689.0618122428505,
+          "y": 728.8951887638757,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65e528048e8291f88bdac7ec",
+              "bookingType": "daily",
+              "seriesId": "65e527e47ba3f482e7ebd213",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bcff7ffcc565a3be0dd938",
+              "user": {
+                "_id": "62bcff7ffcc565a3be0dd938",
+                "code": "2550",
+                "name": "Hieu Hoang",
+                "photoPath": "production/avatar/64f809e11db6eb11a6494e08.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a4b11248ce0dacf7028",
+          "name": "023",
+          "state": "open",
+          "x": 528.3294002856996,
+          "y": 728.8951887638757,
+          "permanentReason": "OS/SW-dien.pham.ry@renesas.com",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65edfe0e93f17abed53c4194",
+              "bookingType": "daily",
+              "seriesId": "65edfde1e3d35fa9b4980298",
+              "entryTime": 28800000,
+              "exitTime": 68400000,
+              "date": 1710262800000,
+              "userId": "632c21437d63ed9ca7c65b1a",
+              "user": {
+                "_id": "632c21437d63ed9ca7c65b1a",
+                "code": "2402",
+                "name": "Phat Pham"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf7034",
+          "name": "155",
+          "state": "open",
+          "x": 1078.8951852150085,
+          "y": 667.8126498988115,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf7041",
+          "name": "160",
+          "state": "permanent",
+          "x": 1125.189089494319,
+          "y": 728.8951887638757,
+          "permanentReason": "RVCSW/CS2/RST LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf7045",
+          "name": "164",
+          "state": "permanent",
+          "x": 1125.189089494319,
+          "y": 805.87343563318,
+          "permanentReason": "RVCSW/CS2/FIT OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf705e",
+          "name": "031",
+          "state": "open",
+          "x": 528.3294002856996,
+          "y": 866.5927294270282,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dbfa4724d8b563131ccbdd",
+              "bookingType": "daily",
+              "seriesId": "65dbfa2c86d78814cbc67b07",
+              "entryTime": 32400000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "6347c7e96108cc9fd9ecff63",
+              "user": {
+                "_id": "6347c7e96108cc9fd9ecff63",
+                "code": "3269",
+                "name": "Vuong Tran",
+                "photoPath": "production/avatar/63e4acdf91a9344d91e18e6f.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7064",
+          "name": "171",
+          "state": "permanent",
+          "x": 1078.8951852150085,
+          "y": 943.726328805565,
+          "permanentReason": "CS1/RCM/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf707b",
+          "name": "103",
+          "state": "permanent",
+          "x": 735.5267692282379,
+          "y": 1005.4719388358747,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7086",
+          "name": "181",
+          "state": "permanent",
+          "x": 920.355284574268,
+          "y": 1142.9978986528588,
+          "permanentReason": "SW/tuong.thach.wh",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70af",
+          "name": "056",
+          "state": "permanent",
+          "x": 574.4522518589333,
+          "y": 1292.3581485550303,
+          "permanentReason": "RVSSW/FSP1/ OS - HV",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba9e",
+          "x": 1009.7433228164026,
+          "y": 239.22054307119646,
+          "name": "131",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dc19a3fafad08d710eca2e",
+              "bookingType": "daily",
+              "seriesId": "65dc197af81befb9e0144042",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "633d4c777d63ed9ca797e737",
+              "user": {
+                "_id": "633d4c777d63ed9ca797e737",
+                "code": "2905",
+                "name": "Dat Nguyen",
+                "photoPath": "production/avatar/634f5c939eab17937ef8e8bb.png"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5ba9f",
+          "x": 1055.6951216835594,
+          "y": 239.22054307119646,
+          "name": "132",
+          "state": "open",
+          "permanentReason": "RHVPF/OS/chuong.le.ct",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dbe65f350ce5522022d7e7",
+              "bookingType": "daily",
+              "seriesId": "65dbe6110cdc7a5e833804b4",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "65ae1ee5ec1e6e9985f527b0",
+              "user": {
+                "_id": "65ae1ee5ec1e6e9985f527b0",
+                "code": "TR0364",
+                "name": "Ton Do"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5baab",
+          "x": 574.4522518589333,
+          "y": 452.4611482447211,
+          "name": "008",
+          "state": "permanent",
+          "permanentReason": "RVSSW/SWPF1-OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bab3",
+          "x": 781.9917262136254,
+          "y": 452.4611482447211,
+          "name": "072",
+          "state": "open",
+          "permanentReason": "RVASW-RVASW3/OS-ducht2@fsoft.com.vn",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65b7157f61147fb9ac3d8384",
+              "bookingType": "daily",
+              "seriesId": "65b71515346a9ecc9c91f451",
+              "entryTime": 32400000,
+              "exitTime": 64800000,
+              "date": 1710262800000,
+              "userId": "62bd07e0fcc565a3be0edbdd",
+              "user": {
+                "_id": "62bd07e0fcc565a3be0edbdd",
+                "code": "2432",
+                "name": "An Ta"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5babd",
+          "x": 1241.5091769390053,
+          "y": 392.1415943618122,
+          "name": "194",
+          "state": "permanent",
+          "permanentReason": "RHVPF/OS/chuong.le.ct",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a3911248ce0dacf700c",
+          "name": "078",
+          "state": "open",
+          "x": 689.0618122428505,
+          "y": 590.3517532433034,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65bc4dca7bbe7a7a7d92222f",
+              "bookingType": "daily",
+              "seriesId": "65bc4daba5c889c580845fe0",
+              "entryTime": 32400000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd07e0fcc565a3be0edbe0",
+              "user": {
+                "_id": "62bd07e0fcc565a3be0edbe0",
+                "code": "2286",
+                "name": "Van Vo",
+                "photoPath": "production/avatar/63bce2d6d55d1d0569c6d995.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a3e11248ce0dacf7010",
+          "name": "146",
+          "state": "permanent",
+          "x": 1032.6012809356978,
+          "y": 529.9072833346194,
+          "permanentReason": "'RVCSW/CS2/RST LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf7044",
+          "name": "163",
+          "state": "permanent",
+          "x": 1078.8951852150085,
+          "y": 805.87343563318,
+          "permanentReason": "RVCSW/CS2/FIT OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf705b",
+          "name": "095",
+          "state": "permanent",
+          "x": 735.5267692282379,
+          "y": 866.5927294270282,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7060",
+          "name": "033",
+          "state": "open",
+          "x": 436.08369713923224,
+          "y": 943.726328805565,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dbebceba1bc64ffb718e3e",
+              "bookingType": "daily",
+              "seriesId": "65dbeb93834a4c3d16670ddc",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd73f5fcc565a3be1c097a",
+              "user": {
+                "_id": "62bd73f5fcc565a3be1c097a",
+                "code": "2588",
+                "name": "Huy SG",
+                "photoPath": "production/avatar/634e94c114aa6568c3529ab6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7066",
+          "name": "173",
+          "state": "permanent",
+          "x": 986.3073766563873,
+          "y": 1005.4719388358747,
+          "permanentReason": "CS1/RCM/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf706c",
+          "name": "230",
+          "state": "open",
+          "x": 1241.5091769390053,
+          "y": 1005.4719388358747,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7078",
+          "name": "100",
+          "state": "permanent",
+          "x": 781.9917262136254,
+          "y": 943.726328805565,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7081",
+          "name": "045",
+          "state": "permanent",
+          "x": 436.08369713923224,
+          "y": 1142.9978986528588,
+          "permanentReason": "RVSSW/SWPF8/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7082",
+          "name": "177",
+          "state": "permanent",
+          "x": 920.355284574268,
+          "y": 1080.5261353616038,
+          "permanentReason": "SW/tuong.thach.wh",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7093",
+          "name": "111",
+          "state": "open",
+          "x": 735.5267692282379,
+          "y": 1142.9978986528588,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dbf11aec8f3c811e3b789f",
+              "bookingType": "daily",
+              "seriesId": "65dbf0f967cd5e493e026f1c",
+              "entryTime": 32400000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bcfdeffcc565a3be0da901",
+              "user": {
+                "_id": "62bcfdeffcc565a3be0da901",
+                "code": "2486",
+                "name": "Tung Le"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a8911248ce0dacf709a",
+          "name": "185",
+          "state": "permanent",
+          "x": 920.355284574268,
+          "y": 1230.2066511673897,
+          "permanentReason": "OS/SW/vu.phan.uj",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70a3",
+          "name": "051",
+          "state": "permanent",
+          "x": 528.3294002856996,
+          "y": 1230.2066511673897,
+          "permanentReason": "RVSSW/FSP1/ OS - HV",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba90",
+          "x": 917.839725082089,
+          "y": 147.5861627377549,
+          "name": "125",
+          "state": "permanent",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba91",
+          "x": 963.7915239492457,
+          "y": 147.5861627377549,
+          "name": "126",
+          "state": "permanent",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bab2",
+          "x": 736.2109800525456,
+          "y": 452.4611482447211,
+          "name": "071",
+          "state": "open",
+          "permanentReason": "RVASW-ASW4/OS",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65add2993be642dba11dafca",
+              "bookingType": "daily",
+              "seriesId": "65add2566650de3abd984583",
+              "entryTime": 32400000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd0111fcc565a3be0e0a2c",
+              "user": {
+                "_id": "62bd0111fcc565a3be0e0a2c",
+                "code": "3141",
+                "name": "Binh Bui",
+                "photoPath": "production/avatar/63e1d6309c2176ffa153bf84.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bab6",
+          "x": 1078.8951852150085,
+          "y": 392.1415943618122,
+          "name": "139",
+          "state": "permanent",
+          "permanentReason": "SW/OS/phu.ho.te",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4411248ce0dacf701f",
+          "name": "081",
+          "state": "permanent",
+          "x": 642.596855257463,
+          "y": 667.8126498988115,
+          "permanentReason": "SWPF/OS/phuong.nguyen.pz",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4411248ce0dacf7023",
+          "name": "085",
+          "state": "permanent",
+          "x": 642.596855257463,
+          "y": 728.8951887638757,
+          "permanentReason": "RVASW-RVASW7/LAB",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf7056",
+          "name": "090",
+          "state": "open",
+          "x": 689.0618122428505,
+          "y": 805.87343563318,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65ae2a795bdc5c82e92f9c6f",
+              "bookingType": "daily",
+              "seriesId": "65ae2a48d77145a6ab4485a8",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bcf851fcc565a3be0cfb54",
+              "user": {
+                "_id": "62bcf851fcc565a3be0cfb54",
+                "code": "3142",
+                "name": "Cuong Vo",
+                "photoPath": "production/avatar/635203452db48a6df8ed619b.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7085",
+          "name": "180",
+          "state": "permanent",
+          "x": 1059.344760617028,
+          "y": 1080.5261353616038,
+          "permanentReason": "CS1/Lab PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7095",
+          "name": "046",
+          "state": "permanent",
+          "x": 482.2065487124659,
+          "y": 1142.9978986528588,
+          "permanentReason": "RVSSW/SWPF8/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70a5",
+          "name": "113",
+          "state": "permanent",
+          "x": 642.596855257463,
+          "y": 1230.2066511673897,
+          "permanentReason": "ANBCD/lapPC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bab4",
+          "x": 986.3073766563873,
+          "y": 392.1415943618122,
+          "name": "137",
+          "state": "permanent",
+          "permanentReason": "SW/OS/phu.ho.te",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bad1",
+          "x": 436.08369713923224,
+          "y": 805.87343563318,
+          "name": "025",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dc1694fafad08d710ec9dc",
+              "bookingType": "daily",
+              "seriesId": "65dc1647c05f8e9b44948b40",
+              "entryTime": 28800000,
+              "exitTime": 72000000,
+              "date": 1710262800000,
+              "userId": "62bd05dafcc565a3be0e9d55",
+              "user": {
+                "_id": "62bd05dafcc565a3be0e9d55",
+                "code": "2450",
+                "name": "Tu Truong"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a3e11248ce0dacf7016",
+          "name": "152",
+          "state": "permanent",
+          "x": 1125.189089494319,
+          "y": 590.3517532433034,
+          "permanentReason": "RVCSW/CS2/RST OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf703c",
+          "name": "214",
+          "state": "permanent",
+          "x": 1241.5091769390053,
+          "y": 728.8951887638757,
+          "permanentReason": "RVCSW/SWDD/SWDE3 LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf7040",
+          "name": "159",
+          "state": "permanent",
+          "x": 1078.8951852150085,
+          "y": 728.8951887638757,
+          "permanentReason": "'RVCSW/CS2/EM LAB",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf704b",
+          "name": "221",
+          "state": "open",
+          "x": 1194.873167247541,
+          "y": 866.5927294270282,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65d6c75b69309209cadd4ad5",
+              "bookingType": "daily",
+              "seriesId": "65d6c7210ee0d6bcdaa88a12",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "632c23ab7d63ed9ca7c6a9f0",
+              "user": {
+                "_id": "632c23ab7d63ed9ca7c6a9f0",
+                "code": "2999",
+                "name": "Châu Ngô Thanh Tú",
+                "photoPath": "production/avatar/634f6289886d5cc393430b24.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf705a",
+          "name": "094",
+          "state": "permanent",
+          "x": 689.0618122428505,
+          "y": 866.5927294270282,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf706b",
+          "name": "229",
+          "state": "open",
+          "x": 1194.873167247541,
+          "y": 1005.4719388358747,
+          "permanentReason": "RVCSW/CS3 LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf707d",
+          "name": "038",
+          "state": "open",
+          "x": 482.2065487124659,
+          "y": 1005.4719388358747,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "658cb5c51f9e7c4ff315fcbb",
+              "bookingType": "daily",
+              "seriesId": "658cb5965549f5fe23963dc2",
+              "entryTime": 32400000,
+              "exitTime": 68400000,
+              "date": 1710262800000,
+              "userId": "62bd05dafcc565a3be0e9d51",
+              "user": {
+                "_id": "62bd05dafcc565a3be0e9d51",
+                "code": "2457",
+                "name": "Dieu Huynh",
+                "photoPath": "production/avatar/63512c9cb6e1c546539d9b8a.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7311248ce0dacf707e",
+          "name": "039",
+          "state": "open",
+          "x": 528.3294002856996,
+          "y": 1005.4719388358747,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "657675c382b1c897b7edb29e",
+              "bookingType": "daily",
+              "seriesId": "6576754a5d07f58832c0479f",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd0111fcc565a3be0e0a2f",
+              "user": {
+                "_id": "62bd0111fcc565a3be0e0a2f",
+                "code": "3139",
+                "name": "An Nguyen",
+                "photoPath": "production/avatar/63b6256eccc941f0de633903.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7083",
+          "name": "178",
+          "state": "permanent",
+          "x": 966.6851099218546,
+          "y": 1080.5261353616038,
+          "permanentReason": "SW/tuong.thach.wh",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba98",
+          "x": 642.5968552574631,
+          "y": 299.0269388358746,
+          "name": "061",
+          "state": "fixed",
+          "permanentReason": null,
+          "fixedUserId": "62ba8388fcc565a3bec0e824",
+          "fixedUser": {
+            "_id": "62ba8388fcc565a3bec0e824",
+            "name": "Khanh Tran",
+            "photoPath": "production/avatar/62ba83fc1f3e3d64d4453e1c.jpg",
+            "code": "T032"
+          },
+          "fixedUserCode": "T032",
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5baa6",
+          "x": 528.3294002856996,
+          "y": 392.1415943618122,
+          "name": "003",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5baad",
+          "x": 689.0618122428505,
+          "y": 392.1415943618122,
+          "name": "066",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65d337eec60d383e06c21417",
+              "bookingType": "daily",
+              "seriesId": "65d337cc680755c8055f05a0",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd0111fcc565a3be0e0a2d",
+              "user": {
+                "_id": "62bd0111fcc565a3be0e0a2d",
+                "code": "2865",
+                "name": "Minh Le",
+                "photoPath": "production/avatar/634f5c669f31bff3bf0c5901.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5baba",
+          "x": 1079.4083433332391,
+          "y": 452.4611482447211,
+          "name": "143",
+          "state": "permanent",
+          "permanentReason": "SW/OS/phu.ho.te",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a3911248ce0dacf7009",
+          "name": "075",
+          "state": "open",
+          "x": 735.5267692282379,
+          "y": 529.9072833346194,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a3e11248ce0dacf7011",
+          "name": "147",
+          "state": "permanent",
+          "x": 1078.8951852150085,
+          "y": 529.9072833346194,
+          "permanentReason": "RVCSW/CarTool OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a3e11248ce0dacf7014",
+          "name": "150",
+          "state": "open",
+          "x": 1032.6012809356978,
+          "y": 590.3517532433034,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "659ce95fb9666b83465feda6",
+              "bookingType": "daily",
+              "seriesId": "659ce89445645ef65d4f4976",
+              "entryTime": 28800000,
+              "exitTime": 72000000,
+              "date": 1710262800000,
+              "userId": "62babd92fcc565a3bec80777",
+              "user": {
+                "_id": "62babd92fcc565a3bec80777",
+                "name": "Thach Nguyen",
+                "code": "2557",
+                "photoPath": "production/avatar/64f6cedc828f9327cab12c19.png"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf703a",
+          "name": "212",
+          "state": "permanent",
+          "x": 1334.7811963219342,
+          "y": 667.8126498988115,
+          "permanentReason": "RVCSW/SWDD/SWDE3 LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7061",
+          "name": "037",
+          "state": "open",
+          "x": 436.08369713923224,
+          "y": 1005.4719388358747,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65d6afef9054dcdff6ff23fa",
+              "bookingType": "daily",
+              "seriesId": "65d6afbadeb2e029c6b4a986",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd05dafcc565a3be0e9d4f",
+              "user": {
+                "_id": "62bd05dafcc565a3be0e9d4f",
+                "code": "2474",
+                "name": "Nhi Le"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7074",
+          "name": "036",
+          "state": "open",
+          "x": 574.4522518589333,
+          "y": 943.726328805565,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65a7a6573e8b38e7b7bf56a1",
+              "bookingType": "daily",
+              "seriesId": "65a7a5f546947e65ba343e5a",
+              "entryTime": 28800000,
+              "exitTime": 64800000,
+              "date": 1710262800000,
+              "userId": "62bd07e0fcc565a3be0edbe1",
+              "user": {
+                "_id": "62bd07e0fcc565a3be0edbe1",
+                "code": "2410",
+                "name": "Vung Tran",
+                "photoPath": "production/avatar/6350a45b33b3845fb7b55928.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf708d",
+          "name": "105",
+          "state": "permanent",
+          "x": 642.596855257463,
+          "y": 1080.5261353616038,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7091",
+          "name": "109",
+          "state": "open",
+          "x": 642.596855257463,
+          "y": 1142.9978986528588,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf709b",
+          "name": "186",
+          "state": "permanent",
+          "x": 966.6851099218546,
+          "y": 1230.2066511673897,
+          "permanentReason": "OS/SW/vu.phan.uj",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf709e",
+          "name": "189",
+          "state": "open",
+          "x": 920.355284574268,
+          "y": 1292.3581485550303,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65e82e185370b603fc95010b",
+              "bookingType": "weekly",
+              "seriesId": "65e82e026b16c32474c40830",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bac081b0367d5b536d333a",
+              "user": {
+                "_id": "62bac081b0367d5b536d333a",
+                "code": "2926",
+                "name": "Thang Nguyen",
+                "photoPath": "production/avatar/63526a36d87341c1615b363a.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70aa",
+          "name": "118",
+          "state": "permanent",
+          "x": 689.0618122428505,
+          "y": 1292.3581485550303,
+          "permanentReason": "ANBCD/lapPC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70ad",
+          "name": "054",
+          "state": "permanent",
+          "x": 482.2065487124659,
+          "y": 1292.3581485550303,
+          "permanentReason": "RVSSW/FSP1/ OS - HV",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba8c",
+          "x": 917.839725082089,
+          "y": 85.21397638192319,
+          "name": "121",
+          "state": "permanent",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba8d",
+          "x": 963.7915239492457,
+          "y": 85.21397638192319,
+          "name": "122",
+          "state": "permanent",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba8e",
+          "x": 1009.7433228164026,
+          "y": 85.21397638192319,
+          "name": "123",
+          "state": "permanent",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba92",
+          "x": 1009.7433228164026,
+          "y": 147.5861627377549,
+          "name": "127",
+          "state": "permanent",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba99",
+          "x": 688.5486541246198,
+          "y": 299.0269388358746,
+          "name": "062",
+          "state": "permanent",
+          "permanentReason": "SW/OS/phu.ho.te",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5baa8",
+          "x": 436.08369713923224,
+          "y": 452.4611482447211,
+          "name": "005",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65e12b20e84d07c40918b151",
+              "bookingType": "daily",
+              "seriesId": "65e12b08440c2cf3771cdeaa",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "659cad9462267ed4493f2ba3",
+              "user": {
+                "_id": "659cad9462267ed4493f2ba3",
+                "code": "3487",
+                "name": "Nhan Le",
+                "photoPath": "production/avatar/65dcaf399e0c01ff9b35339e.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5baaf",
+          "x": 781.9917262136254,
+          "y": 392.1415943618122,
+          "name": "068",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65d32e667b203894d6fc91f6",
+              "bookingType": "daily",
+              "seriesId": "65d32e41197e477c6ffeb5a7",
+              "entryTime": 28800000,
+              "exitTime": 64800000,
+              "date": 1710262800000,
+              "userId": "62bd02c6fcc565a3be0e3ea6",
+              "user": {
+                "_id": "62bd02c6fcc565a3be0e3ea6",
+                "code": "2567",
+                "name": "Tuan Nguyen",
+                "photoPath": "production/avatar/634e968063100fc56f0c2255.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bab5",
+          "x": 1032.6012809356978,
+          "y": 392.1415943618122,
+          "name": "138",
+          "state": "open",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bac3",
+          "x": 1334.7811963219342,
+          "y": 453.5927294270281,
+          "name": "200",
+          "state": "permanent",
+          "permanentReason": "RVCSW/CS1/RHM/Lab",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a3911248ce0dacf7008",
+          "name": "074",
+          "state": "open",
+          "x": 689.0618122428505,
+          "y": 529.9072833346194,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a3911248ce0dacf700a",
+          "name": "076",
+          "state": "open",
+          "x": 781.9917262136254,
+          "y": 529.9072833346194,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a3911248ce0dacf700e",
+          "name": "080",
+          "state": "open",
+          "x": 781.9917262136254,
+          "y": 590.3517532433034,
+          "permanentReason": "RVASW-ASW4/OS",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65bc4e1b7bbe7a7a7d92226d",
+              "bookingType": "daily",
+              "seriesId": "65bc4df87e97bf343e5da5d1",
+              "entryTime": 36000000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd07e0fcc565a3be0edbe4",
+              "user": {
+                "_id": "62bd07e0fcc565a3be0edbe4",
+                "code": "2403",
+                "name": "Tai Luu"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a4111248ce0dacf701a",
+          "name": "204",
+          "state": "permanent",
+          "x": 1334.7811963219342,
+          "y": 529.9072833346194,
+          "permanentReason": "RVCSW/SWDD/SWDE3 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4111248ce0dacf701d",
+          "name": "207",
+          "state": "open",
+          "x": 1288.1451866304699,
+          "y": 590.3517532433034,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4411248ce0dacf7020",
+          "name": "082",
+          "state": "permanent",
+          "x": 689.0618122428505,
+          "y": 667.8126498988115,
+          "permanentReason": "SW/tuong.thach.wh",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4b11248ce0dacf7027",
+          "name": "022",
+          "state": "open",
+          "x": 482.2065487124659,
+          "y": 728.8951887638757,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dfe87442c2be36cba45008",
+              "bookingType": "daily",
+              "seriesId": "65dfe84dd1e8a8c8ef82bb27",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd086cfcc565a3be0eecba",
+              "user": {
+                "_id": "62bd086cfcc565a3be0eecba",
+                "code": "2392",
+                "name": "Cuong Nguyen HSSP2",
+                "photoPath": "production/avatar/64fe8033ee39ea62583b0780.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf7035",
+          "name": "156",
+          "state": "permanent",
+          "x": 1125.189089494319,
+          "y": 667.8126498988115,
+          "permanentReason": "'RVCSW/CS2/FIT LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf7037",
+          "name": "209",
+          "state": "open",
+          "x": 1194.873167247541,
+          "y": 667.8126498988115,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf704d",
+          "name": "223",
+          "state": "open",
+          "x": 1288.1451866304699,
+          "y": 866.5927294270282,
+          "permanentReason": "RVCSW/CS3 LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf705d",
+          "name": "030",
+          "state": "open",
+          "x": 482.2065487124659,
+          "y": 866.5927294270282,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dbfbe424d8b563131cccdd",
+              "bookingType": "daily",
+              "seriesId": "65dbfbb3dc4a550d0779753f",
+              "entryTime": 25200000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd073efcc565a3be0ec845",
+              "user": {
+                "_id": "62bd073efcc565a3be0ec845",
+                "code": "2558",
+                "name": "Thanh Hoang",
+                "photoPath": "production/avatar/634f690367508618b6c628ad.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf705f",
+          "name": "032",
+          "state": "open",
+          "x": 574.4522518589333,
+          "y": 866.5927294270282,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf709d",
+          "name": "188",
+          "state": "open",
+          "x": 1059.344760617028,
+          "y": 1230.2066511673897,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dc0de0daebb2ba9fc02c4a",
+              "bookingType": "daily",
+              "seriesId": "65dc0d99e039de87d5b99b4e",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bac011b0367d5b536d3315",
+              "user": {
+                "_id": "62bac011b0367d5b536d3315",
+                "code": "3115",
+                "name": "Cuong Nguyen"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70a0",
+          "name": "191",
+          "state": "permanent",
+          "x": 1013.0149352694414,
+          "y": 1292.3581485550303,
+          "permanentReason": "CS1/Lab PC + CS1/COM/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5baa4",
+          "x": 436.08369713923224,
+          "y": 392.1415943618122,
+          "name": "001",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65e7c64329ce810d1a164cbc",
+              "bookingType": "weekly",
+              "seriesId": "65e7c62058a6299fd15875b3",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "659cadcb62267ed4493f38d6",
+              "user": {
+                "_id": "659cadcb62267ed4493f38d6",
+                "code": "3489",
+                "name": "Tuan Tran"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bab7",
+          "x": 1125.189089494319,
+          "y": 392.1415943618122,
+          "name": "140",
+          "state": "open",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dddb24078ca894be997c75",
+              "bookingType": "weekly",
+              "seriesId": "65dddacd9155da17c3dc66d5",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "633d4c907d63ed9ca798675d",
+              "user": {
+                "_id": "633d4c907d63ed9ca798675d",
+                "code": "1648",
+                "name": "My Phan"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bab8",
+          "x": 986.3073766563873,
+          "y": 452.4611482447211,
+          "name": "141",
+          "state": "open",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bacc",
+          "x": 436.08369713923224,
+          "y": 667.8126498988115,
+          "name": "017",
+          "state": "permanent",
+          "permanentReason": "OS/SW-tuan.do.px@renesas.com",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a3911248ce0dacf700d",
+          "name": "079",
+          "state": "open",
+          "x": 735.5267692282379,
+          "y": 590.3517532433034,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65e6c188a91a51d51029c221",
+              "bookingType": "daily",
+              "seriesId": "65e6c16523a620bedcf401c4",
+              "entryTime": 46800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd086cfcc565a3be0eecb7",
+              "user": {
+                "_id": "62bd086cfcc565a3be0eecb7",
+                "code": "2816",
+                "name": "Truong Dinh"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a4411248ce0dacf7025",
+          "name": "087",
+          "state": "open",
+          "x": 735.5267692282379,
+          "y": 728.8951887638757,
+          "permanentReason": "RVASW-ASW4/OS",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65d6ccdf2af3d733056df4a5",
+              "bookingType": "weekly",
+              "seriesId": "65d6ccb5450af7e296a90e28",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "6548af5ae31709c6293c7a20",
+              "user": {
+                "_id": "6548af5ae31709c6293c7a20",
+                "code": "3454",
+                "name": "Linh Tran"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf703d",
+          "name": "215",
+          "state": "permanent",
+          "x": 1288.1451866304699,
+          "y": 728.8951887638757,
+          "permanentReason": "RVCSW/SWDD/SWDE3 LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf703f",
+          "name": "158",
+          "state": "open",
+          "x": 1032.6012809356978,
+          "y": 728.8951887638757,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7071",
+          "name": "176",
+          "state": "permanent",
+          "x": 1125.189089494319,
+          "y": 1005.4719388358747,
+          "permanentReason": "'CS1/COM/Lab/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7073",
+          "name": "035",
+          "state": "open",
+          "x": 528.3294002856996,
+          "y": 943.726328805565,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65d5644fc40bebd3c83d2e64",
+              "bookingType": "daily",
+              "seriesId": "65d56429c9981b40f047aa5a",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd073efcc565a3be0ec840",
+              "user": {
+                "_id": "62bd073efcc565a3be0ec840",
+                "code": "2433",
+                "name": "Bao Pham"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7075",
+          "name": "097",
+          "state": "permanent",
+          "x": 642.596855257463,
+          "y": 943.726328805565,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7084",
+          "name": "179",
+          "state": "open",
+          "x": 1013.0149352694414,
+          "y": 1080.5261353616038,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7088",
+          "name": "183",
+          "state": "open",
+          "x": 1013.0149352694414,
+          "y": 1142.9978986528588,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65ea77eb1849e5dbcd03479b",
+              "bookingType": "daily",
+              "seriesId": "65ea77ca030f36c46ee08c3f",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bac0d7b0367d5b536d335f",
+              "user": {
+                "_id": "62bac0d7b0367d5b536d335f",
+                "code": "3117",
+                "name": "Dat Nguyen",
+                "photoPath": "production/avatar/635113ee4119bc5e003acd8f.bmp"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf708b",
+          "name": "043",
+          "state": "permanent",
+          "x": 528.3294002856996,
+          "y": 1080.5261353616038,
+          "permanentReason": "RVSSW/SWPF8/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba93",
+          "x": 1055.6951216835594,
+          "y": 147.5861627377549,
+          "name": "128",
+          "state": "permanent",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7097",
+          "name": "048",
+          "state": "permanent",
+          "x": 574.4522518589333,
+          "y": 1142.9978986528588,
+          "permanentReason": "RVSSW/SWPF8/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba97",
+          "x": 780.4522518589334,
+          "y": 239.22054307119646,
+          "name": "060",
+          "state": "permanent",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70a2",
+          "name": "050",
+          "state": "permanent",
+          "x": 482.2065487124659,
+          "y": 1230.2066511673897,
+          "permanentReason": "RVSSW/FSP1/ OS - HV",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba9d",
+          "x": 963.7915239492457,
+          "y": 239.22054307119646,
+          "name": "130",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "659f9582bbd18e4fa2514d06",
+              "bookingType": "daily",
+              "seriesId": "659f95516a0a561e5bff2b41",
+              "entryTime": 50400000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "637d9e5806c5eb76d3d179aa",
+              "user": {
+                "_id": "637d9e5806c5eb76d3d179aa",
+                "code": "3283",
+                "name": "Thinh Pham"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70a9",
+          "name": "117",
+          "state": "permanent",
+          "x": 642.596855257463,
+          "y": 1292.3581485550303,
+          "permanentReason": "ANBCD/lapPC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5babc",
+          "x": 1194.873167247541,
+          "y": 392.1415943618122,
+          "name": "193",
+          "state": "permanent",
+          "permanentReason": "RHVPF/OS/chuong.le.ct",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70ab",
+          "name": "119",
+          "state": "permanent",
+          "x": 735.5267692282379,
+          "y": 1292.3581485550303,
+          "permanentReason": "ANBCD/lapPC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bac5",
+          "x": 482.2065487124659,
+          "y": 529.9072833346194,
+          "name": "010",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65b0d7f272931d9c7d952aff",
+              "bookingType": "daily",
+              "seriesId": "65b0d7a4fb1211d3a96c1588",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd660dfcc565a3be1a50ec",
+              "user": {
+                "_id": "62bd660dfcc565a3be1a50ec",
+                "name": "Dien Pham",
+                "code": "0751",
+                "photoPath": "production/avatar/635243706b4580ed76811a92.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bac6",
+          "x": 528.3294002856996,
+          "y": 529.9072833346194,
+          "name": "011",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65b08cbd495951e1f0d1a0eb",
+              "bookingType": "daily",
+              "seriesId": "65b08ca80fc9f85a71b7aef9",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "65ae1edeec1e6e9985f5246a",
+              "user": {
+                "_id": "65ae1edeec1e6e9985f5246a",
+                "code": "3519",
+                "name": "Truong Nguyen"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bace",
+          "x": 528.3294002856996,
+          "y": 667.8126498988115,
+          "name": "019",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65b3666fc2c309abb47fcd58",
+              "bookingType": "weekly",
+              "seriesId": "65b3664602c80209e4e3093a",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "633d4c797d63ed9ca797ee3f",
+              "user": {
+                "_id": "633d4c797d63ed9ca797ee3f",
+                "code": "2579",
+                "name": "Canh Lam",
+                "photoPath": "production/avatar/65b365f68a9f6c0006a817af.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bad2",
+          "x": 436.08369713923224,
+          "y": 866.5927294270282,
+          "name": "029",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a3911248ce0dacf7007",
+          "name": "073",
+          "state": "open",
+          "x": 642.596855257463,
+          "y": 529.9072833346194,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65b887213a3c3377ab6f6e10",
+              "bookingType": "daily",
+              "seriesId": "65b886c22dbe34cdfafa4fc5",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd086cfcc565a3be0eecb9",
+              "user": {
+                "_id": "62bd086cfcc565a3be0eecb9",
+                "code": "1370",
+                "name": "Anh Nguyen",
+                "photoPath": "production/avatar/634e951914aa6568c3529ab8.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a3e11248ce0dacf7015",
+          "name": "151",
+          "state": "permanent",
+          "x": 1078.8951852150085,
+          "y": 590.3517532433034,
+          "permanentReason": "RVCSW/CarTool OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4111248ce0dacf7019",
+          "name": "203",
+          "state": "permanent",
+          "x": 1288.1451866304699,
+          "y": 529.9072833346194,
+          "permanentReason": "RVCSW/SWDD/SWDE3 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4411248ce0dacf7026",
+          "name": "088",
+          "state": "permanent",
+          "x": 781.9917262136254,
+          "y": 728.8951887638757,
+          "permanentReason": "RVASW-RVASW7/LAB",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4b11248ce0dacf7029",
+          "name": "024",
+          "state": "open",
+          "x": 574.4522518589333,
+          "y": 728.8951887638757,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65b1e5dce986fdcd1a13bbde",
+              "bookingType": "daily",
+              "seriesId": "65b1e56c233af3aa9bc5eaeb",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd07e0fcc565a3be0edbe2",
+              "user": {
+                "_id": "62bd07e0fcc565a3be0edbe2",
+                "code": "2407",
+                "name": "Tien Nguyen"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a6311248ce0dacf7046",
+          "name": "165",
+          "state": "open",
+          "x": 986.3073766563873,
+          "y": 866.5927294270282,
+          "permanentReason": "RVCSW/CS2/FIT OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf7048",
+          "name": "218",
+          "state": "open",
+          "x": 1241.5091769390053,
+          "y": 805.87343563318,
+          "permanentReason": "RVCSW/CS3 LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf7051",
+          "name": "168",
+          "state": "permanent",
+          "x": 1125.189089494319,
+          "y": 866.5927294270282,
+          "permanentReason": "RVCSW/CS2/FIT OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf705c",
+          "name": "096",
+          "state": "open",
+          "x": 781.9917262136254,
+          "y": 866.5927294270282,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7067",
+          "name": "225",
+          "state": "permanent",
+          "x": 1194.873167247541,
+          "y": 943.726328805565,
+          "permanentReason": "RVCSW/SWDD/SWDE2 LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf707c",
+          "name": "104",
+          "state": "permanent",
+          "x": 781.9917262136254,
+          "y": 1005.4719388358747,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7096",
+          "name": "047",
+          "state": "permanent",
+          "x": 528.3294002856996,
+          "y": 1142.9978986528588,
+          "permanentReason": "RVSSW/SWPF8/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70a1",
+          "name": "192",
+          "state": "open",
+          "x": 1059.344760617028,
+          "y": 1292.3581485550303,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5baa3",
+          "x": 1055.6951216835594,
+          "y": 299.0269388358746,
+          "name": "136",
+          "state": "open",
+          "permanentReason": "RHVPF/OS/chuong.le.ct",
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65a747ba99ccdf588be2740d",
+              "bookingType": "daily",
+              "seriesId": "65a74781c11f79cb166d898b",
+              "entryTime": 36000000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bcf5adfcc565a3be0ca886",
+              "user": {
+                "_id": "62bcf5adfcc565a3be0ca886",
+                "code": "1742",
+                "name": "Quan Nguyen",
+                "photoPath": "production/avatar/64d1ba5cecfef5ac749a82c4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bab0",
+          "x": 642.596855257463,
+          "y": 452.4611482447211,
+          "name": "069",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dbed4a28f7c61ffb3711d5",
+              "bookingType": "daily",
+              "seriesId": "65dbed1fab1b6ba1fde53718",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd0a52fcc565a3be0f271c",
+              "user": {
+                "_id": "62bd0a52fcc565a3be0f271c",
+                "code": "2596",
+                "name": "Phuc Huynh"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5ba96",
+          "x": 734.5004529917768,
+          "y": 239.22054307119646,
+          "name": "059",
+          "state": "permanent",
+          "permanentReason": "RVASW/LAB",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bacd",
+          "x": 482.2065487124659,
+          "y": 667.8126498988115,
+          "name": "018",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65b08b40495951e1f0d1a00b",
+              "bookingType": "daily",
+              "seriesId": "65b089584357a31879351b44",
+              "entryTime": 32400000,
+              "exitTime": 68400000,
+              "date": 1710262800000,
+              "userId": "645871a00d3bef4ec760fa72",
+              "user": {
+                "_id": "645871a00d3bef4ec760fa72",
+                "code": "3342",
+                "name": "Huy Nguyen",
+                "photoPath": "production/avatar/653a2ae9022febb9ac092c0a.PNG"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a4111248ce0dacf7017",
+          "name": "201",
+          "state": "permanent",
+          "x": 1194.873167247541,
+          "y": 529.9072833346194,
+          "permanentReason": "RVCSW/SWDD/SWDE3 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bac9",
+          "x": 482.2065487124659,
+          "y": 590.3517532433034,
+          "name": "014",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65e57a3ff0a56e9c75a0ed92",
+              "bookingType": "daily",
+              "seriesId": "65e579ffc5456bca4ef7bf8d",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "65ae1edfec1e6e9985f52491",
+              "user": {
+                "_id": "65ae1edfec1e6e9985f52491",
+                "code": "3520",
+                "name": "Tu Tran"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a3e11248ce0dacf7013",
+          "name": "149",
+          "state": "permanent",
+          "x": 986.3073766563873,
+          "y": 590.3517532433034,
+          "permanentReason": "RVCSW/CS2/RST LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4111248ce0dacf701e",
+          "name": "208",
+          "state": "permanent",
+          "x": 1334.7811963219342,
+          "y": 590.3517532433034,
+          "permanentReason": "RVCSW/SWDD/SWDE3 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a4411248ce0dacf7022",
+          "name": "084",
+          "state": "permanent",
+          "x": 781.9917262136254,
+          "y": 667.8126498988115,
+          "permanentReason": "SW/tuong.thach.wh",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf7032",
+          "name": "153",
+          "state": "permanent",
+          "x": 986.3073766563873,
+          "y": 667.8126498988115,
+          "permanentReason": "RVCSW/CS2/RST LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf7039",
+          "name": "211",
+          "state": "open",
+          "x": 1288.1451866304699,
+          "y": 667.8126498988115,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf704c",
+          "name": "222",
+          "state": "open",
+          "x": 1241.5091769390053,
+          "y": 866.5927294270282,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dbe38f350ce5522022d79c",
+              "bookingType": "daily",
+              "seriesId": "65dbe34aea2e110ae0a222c7",
+              "entryTime": 25200000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "646ad2c7d067f18b9bad2dc0",
+              "user": {
+                "_id": "646ad2c7d067f18b9bad2dc0",
+                "code": "3359",
+                "name": "Hoai Dang",
+                "photoPath": "production/avatar/65e17c677bd55fa515dfb6e7.png"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf7055",
+          "name": "089",
+          "state": "open",
+          "x": 642.596855257463,
+          "y": 805.87343563318,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6311248ce0dacf7042",
+          "name": "161",
+          "state": "permanent",
+          "x": 986.3073766563873,
+          "y": 805.87343563318,
+          "permanentReason": "RVCSW/CS2/FIT OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf7052",
+          "name": "026",
+          "state": "open",
+          "x": 482.2065487124659,
+          "y": 805.87343563318,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dfda76ef3c228d227542a1",
+              "bookingType": "daily",
+              "seriesId": "65dfda4fbe811b915458283d",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd073efcc565a3be0ec843",
+              "user": {
+                "_id": "62bd073efcc565a3be0ec843",
+                "code": "2970",
+                "name": "Anh Nguyen"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7072",
+          "name": "034",
+          "state": "open",
+          "x": 482.2065487124659,
+          "y": 943.726328805565,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7069",
+          "name": "227",
+          "state": "open",
+          "x": 1288.1451866304699,
+          "y": 943.726328805565,
+          "permanentReason": "",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf707f",
+          "name": "040",
+          "state": "open",
+          "x": 574.4522518589333,
+          "y": 1005.4719388358747,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65a7a474310a3d141007cd81",
+              "bookingType": "daily",
+              "seriesId": "65a7a42d9cebb36eb513b3cd",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bd05dafcc565a3be0e9d53",
+              "user": {
+                "_id": "62bd05dafcc565a3be0e9d53",
+                "code": "2270",
+                "name": "Huy Tran"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf708a",
+          "name": "042",
+          "state": "permanent",
+          "x": 482.2065487124659,
+          "y": 1080.5261353616038,
+          "permanentReason": "RVSSW/SWPF8/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf709c",
+          "name": "187",
+          "state": "permanent",
+          "x": 1013.0149352694414,
+          "y": 1230.2066511673897,
+          "permanentReason": "CS1/Lab PC + CS1/COM/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba9b",
+          "x": 780.4522518589334,
+          "y": 299.0269388358746,
+          "name": "064",
+          "state": "permanent",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5baac",
+          "x": 642.596855257463,
+          "y": 392.1415943618122,
+          "name": "065",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65d32eb57b203894d6fc9242",
+              "bookingType": "daily",
+              "seriesId": "65d32e1db7d433c46945bb27",
+              "entryTime": 32400000,
+              "exitTime": 64800000,
+              "date": 1710262800000,
+              "userId": "62bd04affcc565a3be0e7964",
+              "user": {
+                "_id": "62bd04affcc565a3be0e7964",
+                "code": "2527",
+                "name": "HuySieuNgau",
+                "photoPath": "production/avatar/634f578d20ac8fdcbb93d90f.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5babe",
+          "x": 1288.1451866304699,
+          "y": 392.1415943618122,
+          "name": "195",
+          "state": "permanent",
+          "permanentReason": "RVCSW/CS1/RHM/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5bacb",
+          "x": 574.4522518589333,
+          "y": 590.3517532433034,
+          "name": "016",
+          "state": "permanent",
+          "permanentReason": "OS/SW-dien.pham.ry@renesas.com",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a3e11248ce0dacf700f",
+          "name": "145",
+          "state": "permanent",
+          "x": 986.3073766563873,
+          "y": 529.9072833346194,
+          "permanentReason": "RVCSW/CS2/RST LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a5f11248ce0dacf7038",
+          "name": "210",
+          "state": "open",
+          "x": 1241.5091769390053,
+          "y": 667.8126498988115,
+          "permanentReason": "RVCSW/CS3 LAB PC",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf706a",
+          "name": "228",
+          "state": "open",
+          "x": 1334.7811963219342,
+          "y": 943.726328805565,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65efbc2c90dcf12f84f92fcf",
+              "bookingType": "weekly",
+              "seriesId": "65efbc0cb0e6c1c35d344be0",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62babc75b0367d5b536d329d",
+              "user": {
+                "_id": "62babc75b0367d5b536d329d",
+                "code": "3144",
+                "name": "Hoang Pham"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7079",
+          "name": "101",
+          "state": "permanent",
+          "x": 642.596855257463,
+          "y": 1005.4719388358747,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7089",
+          "name": "184",
+          "state": "open",
+          "x": 1059.344760617028,
+          "y": 1142.9978986528588,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf708c",
+          "name": "044",
+          "state": "permanent",
+          "x": 574.4522518589333,
+          "y": 1080.5261353616038,
+          "permanentReason": "RVSSW/SWPF8/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf7098",
+          "name": "049",
+          "state": "permanent",
+          "x": 436.08369713923224,
+          "y": 1230.2066511673897,
+          "permanentReason": "RVSSW/SWST3/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf7099",
+          "name": "053",
+          "state": "permanent",
+          "x": 436.08369713923224,
+          "y": 1292.3581485550303,
+          "permanentReason": "RVSSW/SWST3/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70a8",
+          "name": "116",
+          "state": "open",
+          "x": 781.9917262136254,
+          "y": 1230.2066511673897,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5ba9a",
+          "x": 734.5004529917768,
+          "y": 299.0269388358746,
+          "name": "063",
+          "state": "permanent",
+          "permanentReason": "RVCSW/SWDD/SWDE2 OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5baa0",
+          "x": 917.839725082089,
+          "y": 299.0269388358746,
+          "name": "133",
+          "state": "permanent",
+          "permanentReason": "SW/OS/phu.ho.te",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a585100ada68b92de5baa5",
+          "x": 482.2065487124659,
+          "y": 392.1415943618122,
+          "name": "002",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dbfdfb24d8b563131ccd75",
+              "bookingType": "daily",
+              "seriesId": "65dbfdce33e5015ba4a8dec4",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "632c155a7d63ed9ca7c4c90b",
+              "user": {
+                "_id": "632c155a7d63ed9ca7c4c90b",
+                "code": "2843",
+                "name": "Nghia Nguyen"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5baa9",
+          "x": 481.86444330031213,
+          "y": 452.4611482447211,
+          "name": "006",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65b08f233e037ed81361b37b",
+              "bookingType": "daily",
+              "seriesId": "65b08ea889412bb76cb20d09",
+              "entryTime": 28800000,
+              "exitTime": 72000000,
+              "date": 1710262800000,
+              "userId": "62bd4d7cfcc565a3be173cfe",
+              "user": {
+                "_id": "62bd4d7cfcc565a3be173cfe",
+                "name": "Vinh Nguyen",
+                "code": "2817",
+                "photoPath": "production/avatar/64ed9bf272f14d85229a179c.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bac7",
+          "x": 574.4522518589333,
+          "y": 529.9072833346194,
+          "name": "012",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65b08bcb495951e1f0d1a057",
+              "bookingType": "daily",
+              "seriesId": "65b08ba9544767bb0f258408",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "65ae1eddec1e6e9985f5243e",
+              "user": {
+                "_id": "65ae1eddec1e6e9985f5243e",
+                "code": "3518",
+                "name": "Anh Vo"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bac8",
+          "x": 436.08369713923224,
+          "y": 590.3517532433034,
+          "name": "013",
+          "state": "open",
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65e57a6ff0a56e9c75a0eddd",
+              "bookingType": "daily",
+              "seriesId": "65e57a47c690cf1da5c15991",
+              "entryTime": 28800000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "633d4c827d63ed9ca7981a8a",
+              "user": {
+                "_id": "633d4c827d63ed9ca7981a8a",
+                "code": "3192",
+                "name": "Khuong Nguyen",
+                "photoPath": "production/avatar/6527706cca25559fa950e648.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a585100ada68b92de5bad0",
+          "x": 436.08369713923224,
+          "y": 728.8951887638757,
+          "name": "021",
+          "state": "permanent",
+          "permanentReason": "OS/SW-tuan.do.px@renesas.com",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a6a11248ce0dacf7057",
+          "name": "091",
+          "state": "open",
+          "x": 735.5267692282379,
+          "y": 805.87343563318,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65b07eda382cdcfc580a8b01",
+              "bookingType": "daily",
+              "seriesId": "65b07e703613aa4c053116fc",
+              "entryTime": 36000000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "62bcf779fcc565a3be0ce0ad",
+              "user": {
+                "_id": "62bcf779fcc565a3be0ce0ad",
+                "code": "3145",
+                "name": "Hung Phung",
+                "photoPath": "production/avatar/64db37fc82b6b35070de275b.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7062",
+          "name": "169",
+          "state": "permanent",
+          "x": 986.3073766563873,
+          "y": 943.726328805565,
+          "permanentReason": "CS1/RCM/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7065",
+          "name": "172",
+          "state": "permanent",
+          "x": 1125.189089494319,
+          "y": 943.726328805565,
+          "permanentReason": "'CS1/COM/Lab/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf7068",
+          "name": "226",
+          "state": "open",
+          "x": 1241.5091769390053,
+          "y": 943.726328805565,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": [
+            {
+              "_id": "65dfd750ef3c228d22754263",
+              "bookingType": "daily",
+              "seriesId": "65dfd72173eef398e8ff3046",
+              "entryTime": 25200000,
+              "exitTime": 61200000,
+              "date": 1710262800000,
+              "userId": "642cd706db8c0e5100a34bf4",
+              "user": {
+                "_id": "642cd706db8c0e5100a34bf4",
+                "code": "3340",
+                "name": "Lam Ngo"
+              }
+            }
+          ]
+        },
+        {
+          "_id": "62a58a7311248ce0dacf706e",
+          "name": "232",
+          "state": "permanent",
+          "x": 1334.7811963219342,
+          "y": 1005.4719388358747,
+          "permanentReason": "RVCSW SMR",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7311248ce0dacf707a",
+          "name": "102",
+          "state": "permanent",
+          "x": 689.0618122428505,
+          "y": 1005.4719388358747,
+          "permanentReason": "OS/SW/trong.nguyen.px",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7080",
+          "name": "041",
+          "state": "permanent",
+          "x": 436.08369713923224,
+          "y": 1080.5261353616038,
+          "permanentReason": "RVSSW/SWPF8/OS",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf7087",
+          "name": "182",
+          "state": "permanent",
+          "x": 966.6851099218546,
+          "y": 1142.9978986528588,
+          "permanentReason": "SW/tuong.thach.wh",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a7c11248ce0dacf708f",
+          "name": "107",
+          "state": "open",
+          "x": 735.5267692282379,
+          "y": 1080.5261353616038,
+          "permanentReason": null,
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62a58a8911248ce0dacf70ae",
+          "name": "055",
+          "state": "permanent",
+          "x": 528.3294002856996,
+          "y": 1292.3581485550303,
+          "permanentReason": "RVSSW/FSP1/ OS - HV",
+          "fixedUserId": null,
+          "books": []
+        },
+        {
+          "_id": "62bc3790163e17ac9ac7e357",
+          "x": 672,
+          "y": 134.5,
+          "name": "4FE-GM1",
+          "state": "fixed",
+          "fixedUserId": "62babe9bb0367d5b536d3300",
+          "fixedUser": {
+            "_id": "62babe9bb0367d5b536d3300",
+            "code": "0774",
+            "name": "Hieu Nguyen",
+            "photoPath": "production/avatar/653f1ad46676e04698381858.jpg"
+          },
+          "fixedUserCode": "0774",
+          "books": []
+        },
+        {
+          "_id": "62bc3796163e17ac9ac7e358",
+          "x": 795,
+          "y": 135.5,
+          "name": "4FE-GM2",
+          "state": "open",
+          "fixedUserId": null,
+          "permanentReason": "",
+          "books": []
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "total": 9
+  }
+}
